@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="dbConnection" class="Entity.DBConnection">
+        <property name="name" value="DBConnection_sivellexfc"/>
+        <property name="url" value="mysql:localhost:8080/jpa_database"/>
+        <property name="password" value="123456789"/>
+    </bean>
+
+    <bean id="dbConnectionCons" class="Entity.DBConnection">
+        <constructor-arg name="url" value="oracle:localhost:3180/jpa_database"/>
+        <constructor-arg name="name" value="DBConnection_with\Constructor"/>
+        <constructor-arg name="password" value="123456789"/>
+    </bean>
+
+
+
+</beans>
