@@ -1,7 +1,9 @@
 package org.example;
 
+import Model.AppConfig;
 import Model.DBConnection;
 import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Main {
@@ -12,5 +14,14 @@ public class Main {
 
         applicationContext.getBean("dbConnection", DBConnection.class).connectDB();
         applicationContext.getBean("dbConnection",DBConnection.class).disconnectDB();
+
+        // AppConfig classı kullanarak bean oluşturduk
+        ConfigurableApplicationContext configurableApplicationContext = new AnnotationConfigApplicationContext(AppConfig.class);
+
+        configurableApplicationContext.getBean(DBConnection.class).connectDB();
+        configurableApplicationContext.getBean(DBConnection.class).disconnectDB();
+
+
+
     }
 }
