@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="dbConnection" class="models.DBConnection">
+        <property name="username" value="mhancavussivellexfc572"></property>
+        <property name="password" value="1q2w3e4r5t6y7u8ı9o0p"></property>
+        <property name="list">
+            <list>
+                <value>min 5 collections</value>
+                <value>max 100 connection</value>
+                <value>100 statement cacheable</value>
+            </list>
+        </property>
+
+        <property name="maps">
+            <map>
+                <entry key="min_connection" value="21"/>
+                <entry key="max_connection" value="1994"/>
+                <entry key="average_timeout" value="2764ms"/>
+            </map>
+        </property>
+
+        <property name="properties">
+            <props>
+                <prop key="accesible">true</prop>
+                <prop key="url_acces">false</prop>
+            </props>
+        </property>
+
+    </bean>
+
+
+</beans>
