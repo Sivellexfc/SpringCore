@@ -10,6 +10,8 @@
         <option value="$PROJECT_DIR$/spring-core-03-objectInjection/pom.xml" />
         <option value="$PROJECT_DIR$/spring-core-04-collections/pom.xml" />
         <option value="$PROJECT_DIR$/spring-core-05-autowire/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-core-06-inheritence/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-core-07-initialization/pom.xml" />
       </list>
     </option>
   </component>

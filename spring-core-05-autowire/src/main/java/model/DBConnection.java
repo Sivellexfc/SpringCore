@@ -1,11 +1,11 @@
 package model;
 
 import model.Properties;
+import org.springframework.beans.factory.annotation.Autowired;
 
 public class DBConnection {
 
     private Database database;
-    
     private Properties properties;
 
     public void connectDB(){
