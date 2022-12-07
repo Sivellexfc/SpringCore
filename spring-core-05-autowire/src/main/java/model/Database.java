@@ -11,7 +11,10 @@ public class Database {
         this.username = username;
         this.password = password;
     }
-
+    @SuppressWarnings("initmethod")
+    public void initMethod(){
+        if(this.username.equals("root")) throw new RuntimeException("Bu kullanıcı yasaklanmış");
+    }
     public Database() {
     }
 

@@ -10,15 +10,15 @@ public class Main {
     public static void main(String[] args) {
 
         // Autowiring with .xml file
-        /*ConfigurableApplicationContext configurableApplicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
-        configurableApplicationContext.getBean(DBConnection.class).connectDB();*/
+        ConfigurableApplicationContext configurableApplicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
+        configurableApplicationContext.getBean(DBConnection.class).connectDB();
 
         // Autowiring with AppConfig class
-        ConfigurableApplicationContext applicationContext = new AnnotationConfigApplicationContext(AppConfig.class);
+        /*ConfigurableApplicationContext applicationContext = new AnnotationConfigApplicationContext(AppConfig.class);
 
-        applicationContext.getBean(DBConnection.class).connectDB();
-        applicationContext.getBean(DBConnection.class).disconnectDB();
+        applicationContext.getBean(DBConnection.class).connectDB();*/
 
+        configurableApplicationContext.close();
 
 
     }

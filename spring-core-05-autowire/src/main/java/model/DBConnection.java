@@ -17,7 +17,7 @@ public class DBConnection {
                                              + "property 2 : " + properties.getProperty2());
         System.out.println("Veri tabanı bağlantısı sağlandı");
     }
-
+    @SuppressWarnings("destruction-method")
     public void disconnectDB(){
         System.out.println("Veri tabanı bağlantısı kesildi");
     }
