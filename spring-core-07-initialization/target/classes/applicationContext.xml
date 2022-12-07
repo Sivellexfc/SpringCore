@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="database" class="model.Database" abstract="true" init-method="init">
+        <property name="username" value="root"/>
+        <property name="password" value="1q2w3e4r5t"/>
+        <property name="propertiesList">
+            <list>
+                <value>this is a database</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="oracle" class="model.Database" parent="database">
+        <property name="name" value="oracle:localhost8080"/>
+        <property name="propertiesList">
+            <list merge="true">
+                <value>this is a oracle database</value>
+                <value>oracle database keeps max 100 entry</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="mysql" class="model.Database" parent="database">
+        <property name="name" value="mysql:localhost8181"/>
+        <property name="propertiesList">
+            <list merge="true">
+                <value>this is a mysql database</value>
+                <value>mysql database keeps max 125 entry</value>
+                <value>mysql database is better</value>
+            </list>
+        </property>
+    </bean>
+
+</beans>
