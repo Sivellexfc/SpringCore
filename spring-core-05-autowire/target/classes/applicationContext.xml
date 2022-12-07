@@ -4,12 +4,15 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="database" class="model.Database">
-        <property name="name" value="Database_Siv"></property>
-        <property name="password" value="135792468"></property>
-        <property name="username" value="root"></property>
+        <property name="name" value="Database_Siv"/>
+        <property name="password" value="135792468"/>
+        <property name="username" value="root"/>
     </bean>
 
-    <bean id="dbConnection" class="model.DBConnection" autowire="byName">
+    <bean id="dbConnection" class="model.DBConnection" autowire="byName"/>
+    <bean id="properties" class="model.Properties">
+        <property name="property1" value="property1 provide quick acces to database"></property>
+        <property name="property2" value="property2 relative with authentication"></property>
     </bean>
 
 
