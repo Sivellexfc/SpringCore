@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="database" class="model.Database" abstract="true" init-method="init">
-        <property name="username" value="root"/>
+        <property name="username" value="root2"/>
         <property name="password" value="1q2w3e4r5t"/>
         <property name="propertiesList">
             <list>
