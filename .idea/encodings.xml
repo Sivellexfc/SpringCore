@@ -9,5 +9,6 @@
     <file url="file://$PROJECT_DIR$/spring-core-06-inheritence/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-core-07-initialization/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-core-08-BeanPostProcessor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-core-09-PropertyPlaceHolder/src/main/java" charset="UTF-8" />
   </component>
 </project>
