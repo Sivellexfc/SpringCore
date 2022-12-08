@@ -11,5 +11,8 @@
     <file url="file://$PROJECT_DIR$/spring-core-08-BeanPostProcessor/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-core-09-PropertyPlaceHolder/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-core-10-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-core-11-autowired/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-core-11-required/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
   </component>
 </project>

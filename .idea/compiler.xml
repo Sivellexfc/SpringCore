@@ -16,12 +16,17 @@
         <module name="spring-core-02-setter" />
         <module name="spring-core-05-autowire" />
         <module name="spring-core-03-objectInjection" />
+        <module name="spring-core-11-autowired" />
         <module name="spring-core-04-collections" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-core-11-required" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SpringCore" options="" />
       <module name="spring-core-01-bean" options="-parameters" />
       <module name="spring-core-02-setter" options="-parameters" />
       <module name="spring-core-03-objectInjection" options="-parameters" />
@@ -32,6 +37,8 @@
       <module name="spring-core-08-BeanPostProcessor" options="-parameters" />
       <module name="spring-core-09-PropertyPlaceHolder" options="-parameters" />
       <module name="spring-core-10-interface" options="-parameters" />
+      <module name="spring-core-11-autowired" options="-parameters" />
+      <module name="spring-core-11-required" options="-parameters" />
     </option>
   </component>
 </project>
