@@ -34,6 +34,7 @@
         </property>
     </bean>
 
-    <bean class="model.BeanFactory"></bean>
+    <!--<bean class="model.BeanFactory"></bean>-->
+    <bean class="model.BeanProcessor"></bean>
 
 </beans>
