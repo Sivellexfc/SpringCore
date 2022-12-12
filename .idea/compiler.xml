@@ -6,18 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-core-06-inheritence" />
+        <module name="spring-core-12-component" />
         <module name="spring-core-10-interface" />
+        <module name="spring-core-09-PropertyPlaceHolder" />
+        <module name="spring-core-02-setter" />
+        <module name="spring-core-03-objectInjection" />
+        <module name="spring-core-11-autowired" />
+        <module name="spring-core-04-collections" />
+        <module name="spring-core-06-inheritence" />
         <module name="spring-core-08-BeanPostProcessor" />
         <module name="spring-core-07-initialization" />
         <module name="SpringCore" />
         <module name="spring-core-01-bean" />
-        <module name="spring-core-09-PropertyPlaceHolder" />
-        <module name="spring-core-02-setter" />
         <module name="spring-core-05-autowire" />
-        <module name="spring-core-03-objectInjection" />
-        <module name="spring-core-11-autowired" />
-        <module name="spring-core-04-collections" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -39,6 +40,7 @@
       <module name="spring-core-10-interface" options="-parameters" />
       <module name="spring-core-11-autowired" options="-parameters" />
       <module name="spring-core-11-required" options="-parameters" />
+      <module name="spring-core-12-component" options="-parameters" />
     </option>
   </component>
 </project>
