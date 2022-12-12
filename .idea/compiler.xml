@@ -15,6 +15,7 @@
         <module name="spring-core-04-collections" />
         <module name="spring-core-06-inheritence" />
         <module name="spring-core-08-BeanPostProcessor" />
+        <module name="spring-core-14-event" />
         <module name="spring-core-07-initialization" />
         <module name="SpringCore" />
         <module name="spring-core-01-bean" />
@@ -43,6 +44,7 @@
       <module name="spring-core-11-required" options="-parameters" />
       <module name="spring-core-12-component" options="-parameters" />
       <module name="spring-core-13-messageSource" options="-parameters" />
+      <module name="spring-core-14-event" options="-parameters" />
     </option>
   </component>
 </project>
