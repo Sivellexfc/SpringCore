@@ -17,6 +17,7 @@
         <option value="$PROJECT_DIR$/spring-core-10-interface/pom.xml" />
         <option value="$PROJECT_DIR$/spring-core-11-autowired/pom.xml" />
         <option value="$PROJECT_DIR$/spring-core-12-component/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-core-13-messageSource/pom.xml" />
       </list>
     </option>
   </component>
